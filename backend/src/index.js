@@ -9,7 +9,7 @@ const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
 database.connect(
-    'mongodb://estudo-user:estudouser123@cluster0-shard-00-00-vsk8a.mongodb.net:27017,cluster0-shard-00-01-vsk8a.mongodb.net:27017,cluster0-shard-00-02-vsk8a.mongodb.net:27017/goweek-backend?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true', 
+    'mongodb://estudo-user:estudouser123@cluster0-shard-00-00-vsk8a.mongodb.net:27017,cluster0-shard-00-01-vsk8a.mongodb.net:27017,cluster0-shard-00-02-vsk8a.mongodb.net:27017/poc-react?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true', 
     {
         useNewUrlParser: true
     }
